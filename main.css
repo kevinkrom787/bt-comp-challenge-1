@@ -64,6 +64,7 @@ button:hover {
 
 .two:hover {
   background-image: url(http://sportsroids.com/wp-content/uploads/2008/12/marshawn-lynch-beast-mode-grill.jpg);
+  background-size: cover;
 }
 
 .three {
@@ -73,6 +74,7 @@ button:hover {
 
 .three:hover {
   background-image: url(http://binaryapi.ap.org/b24afce0b6d04f93a7382b919d4f65a8/460x.jpg);
+  background-size: cover;
 }
 
 .four {
@@ -83,6 +85,7 @@ button:hover {
 
 .four:hover {
   background-image: url(https://www.marijuanapackaging.com/blog/wp-content/uploads/2015/01/beastmode-weed-strain1.jpg);
+  background-size: cover;
 }
 
 .five {
@@ -92,6 +95,7 @@ button:hover {
 
 .five:hover {
   background-image: url(https://images-na.ssl-images-amazon.com/images/I/51mt1iyui0L._SY445_.jpg);
+  background-size: cover;
 }
 .six {
   grid-column: 1 / 2;
@@ -100,6 +104,7 @@ button:hover {
 
 .six:hover {
   background-image: url(http://imgc.allpostersimages.com/img/posters/seattle-seahawks-marshawn-lynch-photo_u-L-F65N9H0.jpg);
+  background-size: cover;
 }
 
 .seven {
@@ -109,6 +114,7 @@ button:hover {
 
 .seven:hover {
   background-image: url(https://imagesvc.timeincapp.com/v3/mm/image?url=https%3A%2F%2Fcdn-s3.si.com%2Fs3fs-public%2Fstyles%2Fmarquee_large_2x%2Fpublic%2Fimages%2Fmarshawn-lynch-skittles-650-392.jpg%3Fitok%3D7LIyZ48Z&w=700&q=85);
+  background-size: cover;
 }
 
 .eight {
@@ -118,6 +124,7 @@ button:hover {
 
 .eight:hover {
   background-image: url(http://www3.pictures.zimbio.com/gi/Seattle+Seahawks+Victory+Parade+axsntw8ZGxEx.jpg);
+  background-size: cover;
 }
 
 .one,
@@ -138,6 +145,6 @@ button:hover {
 .nine {
   grid-column-start: 4;
   grid-column-end: 6;
-  grid-row-start: 1;
-  grid-row-end: span 3;
+  grid-row: span 1;
+  grid-row-end: 4;
 }
