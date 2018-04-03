@@ -31,6 +31,7 @@ body {
 img {
   height: 75px;
   width: 75px;
+  margin-bottom: 5px;
 }
 
 /* the difficult box */
@@ -45,27 +46,31 @@ img {
   padding-left: 15px;
 }
 
-h6 {
-  
-}
-
 button {
-  margin-bottom: 15px;
-  margin-top: 5px;
-  display: flex;
-  margin-right: 10px;
   background-color: #2E6171;
   border-color: white;
-  border-width: 2px;
-  width: 95px;
-  height: 40px;
   color: white;
   display: flex;
+  border-width: 2px;
+  display: flex;
+  height: 40px;
   justify-content: center;
+  margin-right: 10px;
+  font-size: .6em;
+  margin-bottom: 15px;
+  margin-top: 5px;
+  width: 105px;
+  padding-top: 6px;
 }
 
 button:hover {
   transform: skew(-10deg);
+}
+
+.button-icons {
+  height: 25px;
+  width: 25px;
+  margin-right: 5px;
 }
 
 
@@ -167,12 +172,49 @@ button:hover {
 }
 
 .nine {
-  /* grid-column: 4 / 6;
-  grid-row: 1 / 4; */
   grid-area:  c;
   color: black;
   background-image: url(https://wallpapertag.com/wallpaper/middle/9/f/0/144758-marshawn-lynch-wallpaper-2880x1800-for-mobile-hd.jpg);
   background-repeat: no-repeat;
   background-size: 90vh 65vw;
-  
+}
+
+.next-button {
+  border-color: gray;
+  border-style: solid;
+  border-radius: 50%;
+  border-width: 2px;
+  height: 40px;
+  width: 40px;
+  display: inline;
+  margin-left: 30px;
+}
+
+.next-button:hover {
+  opacity: 1;
+ }
+ .next-button:hover {
+  opacity: 0.75;
+}
+
+.back {
+  margin-right: 25vw;
+}
+
+.topper {
+  grid-row: 1 / 4;
+  margin-bottom: 92vh;
+  margin-left: 30vw;
+}
+
+/* Media Queries  */
+
+@media screen and (max-width: 700px) {
+
+  #grid {
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(5, 1fr);
+
+  }
+
 }
