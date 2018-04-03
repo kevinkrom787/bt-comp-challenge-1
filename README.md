@@ -16,4 +16,6 @@ Project is looking to recreate the website format below. While we are given crea
 
 <img src="http://frontend.turing.io/assets/images/static-comp-challenge-1.jpg"> 
 
-<strong> Add personal photos </strong>
+<img src="https://raw.githubusercontent.com/kevinkrom787/bt-comp-challenge-1/master/Screen%20Shot%202018-04-02%20at%2010.33.01%20PM.png"
+
+
