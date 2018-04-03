@@ -16,7 +16,8 @@ Project is looking to recreate the website format below. While we are given crea
 
 <img src="http://frontend.turing.io/assets/images/static-comp-challenge-1.jpg"> 
 
-![alt-text](https://kevinkrom787.github.io/bt-comp-challenge-1/)
+<img src="https://github.com/kevinkrom787/bt-comp-challenge-1/blob/master/Screen%20Shot%202018-04-02%20at%2010.33.01%20PM.png">
+
 
 
 
